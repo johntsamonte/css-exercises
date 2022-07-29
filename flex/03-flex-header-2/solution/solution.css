@@ -53,13 +53,15 @@ ul {
   display: flex;
   justify-content: space-between;
   padding: 8px;
-}
+} /*flex the whole thing to make it horizontal, but group left and right so you
+can use space-between to keep them on edges*/
 
 ul {
   display: flex;
   margin: 0;
   padding: 0;
   gap: 16px;
+  /*flex list so it displays horizontally */
 }
 
 .left, .right {
