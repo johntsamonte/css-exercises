@@ -1,15 +1,35 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+  
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 36px;
+
+  
+}
+.items {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+
+  
+}
+
+/*did not need media class, only needed to set content width*/
+
+.media .content{
+  text-align: center;
+  width: 200px;
 }
 
 /* do not edit this footer */
